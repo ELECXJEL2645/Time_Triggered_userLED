@@ -34,7 +34,7 @@ int main()
     // set-up the ticker so that the ISR it is called every 0.5 seconds
     ticker.attach(&timer_isr,500ms);
     
-    red_led = state;
+    user_led = state;
     
     while (1) {
  
